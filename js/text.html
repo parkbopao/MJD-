@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .tap{
+            width: 100px;
+            height: 100px;
+            background-color: palevioletred;
+        }
+    </style>
+    <script src="base.js"></script>
+    <script src="shopCart.js"></script>
+</head>
+<body>
+<div class="tap">
+
+</div>
+<script src="base.js"></script>
+<script>
+    let div = document.getElementsByClassName('tap')[0];
+    console.log(div)
+    Mjd.tap(div,()=>{
+        alert('嘿嘿，小哥哥好哇')
+    })
+</script>
+</body>
+</html>
